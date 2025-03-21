@@ -107,6 +107,15 @@ The project utilizes standard machine learning libraries like SciPy and scikit-l
 
 
 # `Outcome`
-The outcome of this customer churn prediction project involves developing a machine learning model to predict whether customers are likely to churn or not. This prediction is based on various customer attributes such as age, gender, location, subscription length, monthly bill, and total usage. The model's primary purpose is to assist in identifying customers who are at a higher risk of churning, enabling the business to take proactive measures to retain them. By using the trained model to predict churn, the company can allocate resources more effectively, personalize engagement strategies, and implement targeted retention efforts. Ultimately, the project's success is measured by the model's ability to make predictions, helping the company reduce churn rates, improve customer satisfaction, and optimize its customer retention strategies.
+We aimed to predict customer churn using machine learning models. Various models were tested, including Logistic
+Regression, Random Forest, and XGBoost, with hyperparameter tuning. However, the best model achieved an accuracy of 50%, which is close to random guessing.
+
+ * Possible Reasons for Low Accuracy:
+
+The dataset may lack strong predictive features.
+
+Important customer behavior data ( Transaction history, customer complaints, or engagement levels) may be missing.
+
+* While the model did not achieve high accuracy, the project provided valuable insights into data preprocessing, feature engineering, and model tuning.
 
 
